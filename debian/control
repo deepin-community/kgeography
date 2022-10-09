@@ -1,0 +1,51 @@
+Source: kgeography
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.13~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.62.0~),
+               gettext,
+               libkf5configwidgets-dev (>= 5.62.0~),
+               libkf5coreaddons-dev (>= 5.62.0~),
+               libkf5crash-dev (>= 5.62.0~),
+               libkf5doctools-dev (>= 5.62.0~),
+               libkf5i18n-dev (>= 5.62.0~),
+               libkf5iconthemes-dev (>= 5.62.0~),
+               libkf5itemviews-dev (>= 5.62.0~),
+               libkf5widgetsaddons-dev (>= 5.62.0~),
+               libkf5xmlgui-dev (>= 5.62.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.12.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://edu.kde.org/kgeography
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kgeography
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kgeography.git
+
+Package: kgeography
+Architecture: any
+Depends: kgeography-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Section: misc
+Suggests: khelpcenter
+Description: geography learning aid for KDE
+ KGeography is an aid for learning about world geography.  You can use it to
+ explore a map, show information about regions and features, and play quiz
+ games to test your geography knowledge.
+ .
+ This package is part of the KDE education module.
+
+Package: kgeography-data
+Architecture: all
+Section: misc
+Depends: ${misc:Depends}
+Description: data files for KGeography
+ This package contains architecture-independent data files for the
+ KGeography geography learning tool, including maps, capitals, and flags.
+ .
+ This package is part of the KDE education module.

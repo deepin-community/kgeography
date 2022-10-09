@@ -1,0 +1,249 @@
+
+add_subdirectory(australia)
+add_subdirectory(belgium)
+add_subdirectory(brazil)
+add_subdirectory(canada)
+add_subdirectory(colombia)
+add_subdirectory(estonia)
+add_subdirectory(germany)
+add_subdirectory(ghana)
+add_subdirectory(italy)
+add_subdirectory(norway)
+add_subdirectory(peru)
+add_subdirectory(spain)
+add_subdirectory(slovakia)
+add_subdirectory(ukraine)
+add_subdirectory(usa)
+add_subdirectory(japan)
+add_subdirectory(ireland)
+add_subdirectory(portugal)
+add_subdirectory(russia)
+add_subdirectory(belarus)
+
+########### install files ###############
+
+install(FILES
+   albania.png
+   djibouti.png
+   latvia.png
+   algeria.png
+   dominicanrepublic.png
+   lebanon.png
+   san_marino.png
+   angola.png
+   dominica.png
+   lesotho.png
+   saudiarabia.png
+   antigua.png
+   egypt.png
+   liberia.png
+   austria.png
+   el_salvador.png
+   libya.png
+   equatorial_guinea.png
+   lithuania.png
+   bahamas.png
+   eritrea.png
+   senegal.png
+   barbados.png
+   estonia.png
+   luxembourg.png
+   serbia.png
+   montenegro.png
+   ethiopia.png
+   macedonia.png
+   sierra_leone.png
+   belarus.png
+   finland.png
+   madagascar.png
+   slovakia.png
+   belgium.png
+   france.png
+   liechtenstein.png
+   malawi.png
+   slovenia.png
+   belize.png
+   gabon.png
+   mali.png
+   somalia.png
+   benin.png
+   gambia.png
+   mauritania.png
+   southafrica.png
+   germany.png
+   spain.png
+   bosnia_herzegovina.png
+   ghana.png
+   mexico.png
+   sudan.png
+   southsudan.png
+   botswana.png
+   greece.png
+   moldova.png
+   swaziland.png
+   guatemala.png
+   morocco.png
+   sweden.png
+   guineabissau.png
+   mozambique.png
+   switzerland.png
+   bulgaria.png
+   guinea.png
+   namibia.png
+   syria.png
+   burkina.png
+   haiti.png
+   netherlands.png
+   tanzania.png
+   burundi.png
+   nicaragua.png
+   cameroon.png
+   nigeria.png
+   togo.png
+   canada.png
+   honduras.png
+   niger.png
+   trinidad_tobago.png
+   central_african_republic.png
+   hungary.png
+   tunisia.png
+   chad.png
+   iceland.png
+   norway.png
+   turkey.png
+   congo_brazzaville.png
+   iran.png
+   oman.png
+   turkmenistan.png
+   congo_kinshasa.png
+   iraq.png
+   panama.png
+   uganda.png
+   costa_rica.png
+   ireland.png
+   poland.png
+   uk.png
+   cote_divoire.png
+   israel.png
+   portugal.png
+   ukraine.png
+   croatia.png
+   italy.png
+   qatar.png
+   usa.png
+   cuba_3x2.png
+   jamaica.png
+   western_sahara.png
+   cyprus_4x3.png
+   jordan.png
+   romania.png
+   yemen.png
+   czech.png
+   kenya.png
+   russia.png
+   zambia.png
+   denmark.png
+   kuwait.png
+   rwanda.png
+   zimbabwe.png
+   colombia.png
+   venezuela.png
+   guyana.png
+   suriname.png
+   ecuador.png
+   peru.png
+   brazil.png
+   bolivia.png
+   chile.png
+   paraguay.png
+   argentina.png
+   uruguay.png
+   uae.png
+   china.png
+   india.png
+   SriLanka.png
+   mongolia.png
+   kazakhstan.png
+   japan.png
+   myanmar.png
+   nepal.png
+   bhutan.png
+   indonesia.png
+   malaysia.png
+   bangladesh.png
+   afghanistan.png
+   azerbaijan.png
+   armenia.png
+   bahrain.png
+   georgia.png
+   uzbekistan.png
+   kyrgyzstan.png
+   tajikistan.png
+   pakistan.png
+   laos.png
+   cambodia.png
+   easttimor.png
+   brunei.png
+   philippines.png
+   thailand.png
+   vietnam.png
+   taiwan.png
+   singapore.png
+   nkorea.png
+   skorea.png
+   fiji.png
+   tonga.png
+   australia.png
+   Vatican.png
+   andorra.png
+   Monaco.png
+   papua_new_guinea.png
+   greenland.png
+   american_samoa.png
+   micronesia.png
+   samoa.png
+   cook_islands.png
+   nauru.png
+   solomon_islands.png
+   easter_island.png
+   new_caledonia.png
+   tokelau.png
+   niue.png
+   tuvalu.png
+   french_polynesia.png
+   norfolk_island.png
+   vanuatu.png
+   guam.png
+   northern_mariana_islands.png
+   wallis_and_futuna.png
+   kiribati.png
+   palau.png
+   marshall_islands.png
+   pitcairn_islands.png
+   new_zealand.png
+   cayman_islands.png
+   aruba.png
+   dutch_antilles.png
+   grenada.png
+   st_vincent_and_grenadines.png
+   saint_lucia.png
+   martinique.png
+   montserrat.png
+   st_kitts_and_nevis.png
+   anguilla.png
+   british_virgin_islands.png
+   us_virgin_islands.png
+   turk_and_caicos_islands.png
+   puerto_rico.png
+   cape_verde.png
+   comoros.png
+   mauritius.png
+   sao_tome_and_principe.png
+   seychelles.png
+   st_helena.png
+   madeira.png
+   malta.png
+
+	DESTINATION ${KDE_INSTALL_DATADIR}/kgeography/flags)
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+	<kcfgfile name="kgeographyrc"/>
+	<group name="general">
+		<entry name="lastMap" type="String">
+			<label>The last opened map</label>
+		</entry>
+		<entry name="questionPlacingScheme" type="Enum">
+			<label>Placement alignment of the question</label>
+			<default>TopLeft</default>
+			<choices>
+				<choice name="TopLeft" />
+				<choice name="Top" />
+				<choice name="TopRight" />
+				<choice name="Left" />
+				<choice name="Center" />
+				<choice name="Right" />
+				<choice name="BottomLeft" />
+				<choice name="Bottom" />
+				<choice name="BottomRight" />
+			</choices>
+		</entry>
+		<entry name="waitsForValidation" type="Bool">
+			<label>Ask for validation before next question</label>
+			<default>true</default>
+		</entry>
+		<entry name="focusFollowsMouse" type="Bool">
+			<label>Whether press on space while hovering a button should trigger that button</label>
+			<default>false</default>
+		</entry>
+		<entry name="colorDisguise" type="Enum">
+			<label>What to do to colors of divisions</label>
+			<default>Nothing</default>
+			<choices>
+				<choice name="Nothing" />
+				<choice name="Scramble" />
+			</choices>
+		</entry>
+  </group>
+</kcfg>

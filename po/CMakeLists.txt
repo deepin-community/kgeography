@@ -1,0 +1,6 @@
+ki18n_install_ts_files(fi fi/scripts/kgeography)
+ki18n_install_ts_files(fr fr/scripts/kgeography)
+ki18n_install_ts_files(ja ja/scripts/kgeography)
+ki18n_install_ts_files(ml ml/scripts/kgeography)
+ki18n_install_ts_files(pl pl/scripts/kgeography)
+ki18n_install_ts_files(uk uk/scripts/kgeography)

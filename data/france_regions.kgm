@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE kgeographyMap>
+<map>
+	<mapFile>france_regions.png</mapFile>
+	<name>France (Regions)</name>
+    <divisionsName>Regions</divisionsName>
+    <author>Julien REINE</author>
+	<division>
+		<name>Frontier</name>
+		<ignore>yes</ignore>
+		<color><red>0</red><green>0</green><blue>0</blue></color>
+	</division>
+	<division>
+		<name>Water</name>
+		<ignore>yes</ignore>
+		<color><red>255</red><green>255</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Not France (Regions)</name>
+		<ignore>yes</ignore>
+		<color><red>204</red><green>204</green><blue>204</blue></color>
+	</division>
+	<division>
+		<name>Provence-Alpes-Côte d'Azur</name>
+		<capital>Marseille</capital>
+		<color><red>255</red><green>128</green><blue>128</blue></color>
+	</division>
+	<division>
+		<name>Normandie</name>
+		<capital>Rouen</capital>
+		<color><red>0</red><green>255</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Corse</name>
+		<capital>Ajaccio</capital>
+		<color><red>255</red><green>0</green><blue>0</blue></color>
+	</division>
+	<division>
+		<name>Bourgogne-Franche-Comté</name>
+		<capital>Dijon</capital>
+		<color><red>255</red><green>255</green><blue>0</blue></color>
+	</division>
+	<division>
+		<name>Occitanie</name>
+		<capital>Toulouse</capital>
+		<color><red>255</red><green>0</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Nouvelle-Aquitaine</name>
+		<capital>Bordeaux</capital>
+		<color><red>191</red><green>128</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Bretagne</name>
+		<capital>Rennes</capital>
+		<color><red>187</red><green>255</green><blue>187</blue></color>
+	</division>
+	<division>
+		<name>Pays de Loire</name>
+		<capital>Nantes</capital>
+		<color><red>0</red><green>128</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Centre-Val-de-Loire</name>
+		<capital>Orléans</capital>
+		<color><red>128</red><green>191</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Grand-Est</name>
+		<capital>Strasbourg</capital>
+		<color><red>128</red><green>255</green><blue>0</blue></color>
+	</division>
+	<division>
+		<name>Auvergne-Rhône-Alpes</name>
+		<capital>Lyon</capital>
+		<color><red>255</red><green>128</green><blue>0</blue></color>
+	</division>
+	<division>
+		<name>Île de France</name>
+		<capital>Paris</capital>
+		<color><red>255</red><green>128</green><blue>255</blue></color>
+	</division>
+	<division>
+		<name>Hauts-de-France</name>
+		<capital>Lille</capital>
+		<color><red>128</red><green>255</green><blue>128</blue></color>
+	</division>
+</map>
